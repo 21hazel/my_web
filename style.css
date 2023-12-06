@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(128, 128, 128);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul,li{
+    display: flex;
+    flex-direction: row;
+}
+header ul, li, a{
+    text-decoration: none;
+    color: black;
+    size: 500px;
+    list-style-type: none;
+    margin-left: 15px;
+}
+.left_header{
+
+}
+.right_header{
+    
+}
+
+section{
+    height: 100vh;
+    border: 1px solid white;
+    display :flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.interest{
+    color: white;
+    background-color: rgb(121, 56, 10);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.7s;
+}
+.interest:hover{
+    background-color : white;
+    color:rgb(121, 56, 10);
+    border: 2px solid rgb(121, 56, 10);
+    font-weight: bold;
+}
+.interest:active{
+    background-color: rgb(121, 56, 10);
+    color: white;
+}
+
+.interest:active{
+    opacity: 1;
+}
+.click{
+    font-size: 14px;
+    color: rgb(211, 205, 205);
+    margin-top: 6px;
+}
+.intro{
+    color:rgb(211, 205, 205);
+    margin-top: 10px;
+}
+
